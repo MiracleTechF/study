@@ -1,0 +1,452 @@
+body{
+    background-color: rgb(250, 250, 250);
+    box-sizing: border-box;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin: 1px;
+    padding: 1px;
+    margin-top: 15px;
+
+}
+.maincontainer{
+    position: relative;
+    bottom: 20px;
+}
+.menu{
+    display: flex;
+    background-color: rgb(250, 250, 250);
+    width: 415px;
+    position: relative;
+    bottom: 20px;
+}
+.search{
+    width: 20px;
+    height: auto;
+    position: relative;
+    top: 30px;
+    left: 40px;
+}
+.bookmark{
+    width: 20px;
+    height: 25px;
+    position: relative;
+    top: 30px;
+    left: 90px;
+}
+li{
+    height: 10px;
+    position: relative;
+    left: 120px;
+}
+.tabs{
+    display: flex;
+    background-color: #fff;
+    width: 415px;
+    font-size: 17px;
+    position: relative;
+    bottom: 20px;
+    border: 5px solid rgb(250, 250, 250);
+}
+.tabs>div:hover{
+    color: rgb(67, 7, 124); 
+    font-weight: bolder;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.intro{
+    position: relative;
+}
+.books{
+    position: relative;
+    left: 20px;
+}
+.index{
+    position: relative;
+    left: 30px;
+}
+.appendix{
+    position: relative;
+    left: 40px;
+}
+.booking{
+    color: black;
+}
+.booking:hover{
+    color: rgb(67, 7, 124); 
+    font-weight: bolder;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.flex-container{
+    display: flex;
+    /* background-color: rgb(190, 190, 190); */
+    flex-wrap: wrap;
+    width:420px;
+}
+.flex-container>div{
+    background-color: rgb(100, 100, 100);
+    text-align: center;
+    width: 80px;
+    line-height: 70px;
+    margin: 1px;
+    color: #fff;
+}
+.flex-container>div:hover{
+    background-color: rgb(67, 7, 124);
+}
+.flex-container2{
+    display: flex;
+    /* background-color: rgb(190, 190, 190); */
+    flex-wrap: wrap;
+    width:420px;
+}
+.flex-container2>div{
+    background-color: rgb(100, 100, 100);
+    text-align: center;
+    width: 80px;
+    line-height: 70px;
+    margin: 1px;
+    color: #fff;
+}
+.flex-container2>div:hover{
+    background-color: rgb(67, 7, 124);
+}
+.flex-container3{
+    display: flex;
+    /* background-color: rgb(190, 190, 190); */
+    flex-wrap: wrap;
+    width:420px;
+}
+.flex-container3>div{
+    background-color: rgb(100, 100, 100);
+    text-align: center;
+    width: 80px;
+    line-height: 70px;
+    margin: 1px;
+    color: #fff;
+}
+.flex-container3>div:hover{
+    background-color: rgb(67, 7, 124);
+}
+.flex-container4{
+    display: flex;
+    /* background-color: rgb(190, 190, 190); */
+    flex-wrap: wrap;
+    width:420px;
+}
+.flex-container4>div{
+    background-color: rgb(100, 100, 100);
+    text-align: center;
+    width: 80px;
+    line-height: 70px;
+    margin: 1px;
+    color: #fff;
+}
+.flex-container4>div:hover{
+    background-color: rgb(67, 7, 124);
+}
+.flex-container5{
+    display: flex;
+    /* background-color: rgb(190, 190, 190); */
+    flex-wrap: wrap;
+    width:420px;
+}
+.flex-container5>div{
+    background-color: rgb(100, 100, 100);
+    text-align: center;
+    width: 80px;
+    line-height: 70px;
+    margin: 1px;
+    color: #fff;
+}
+.flex-container5>div:hover{
+    background-color: rgb(67, 7, 124);
+}
+.flex-container6{
+    display: flex;
+    /* background-color: rgb(190, 190, 190); */
+    flex-wrap: wrap;
+    width:420px;
+}
+.flex-container6>div{
+    background-color: rgb(100, 100, 100);
+    text-align: center;
+    width: 80px;
+    line-height: 70px;
+    margin: 1px;
+    color: #fff;
+}
+.flex-container6>div:hover{
+    background-color: rgb(67, 7, 124);
+}
+.flex-container7{
+    display: flex;
+    /* background-color: rgb(190, 190, 190); */
+    flex-wrap: wrap;
+    width:420px;
+}
+.flex-container7>div{
+    background-color: rgb(100, 100, 100);
+    text-align: center;
+    width: 80px;
+    line-height: 70px;
+    margin: 1px;
+    color: #fff;
+}
+.flex-container7>div:hover{
+    background-color: rgb(67, 7, 124);
+}
+.flex-container8{
+    display: flex;
+    /* background-color: rgb(190, 190, 190); */
+    flex-wrap: wrap;
+    width:420px;
+}
+.flex-container8>div{
+    background-color: rgb(100, 100, 100);
+    text-align: center;
+    width: 80px;
+    line-height: 70px;
+    margin: 1px;
+    color: #fff;
+}
+.flex-container8>div:hover{
+    background-color: rgb(67, 7, 124);
+}
+.flex-container9{
+    display: flex;
+    /* background-color: rgb(190, 190, 190); */
+    flex-wrap: wrap;
+    width:420px;
+}
+.flex-container9>div{
+    background-color: rgb(100, 100, 100);
+    text-align: center;
+    width: 80px;
+    line-height: 70px;
+    margin: 1px;
+    color: #fff;
+}
+.flex-container9>div:hover{
+    background-color: rgb(67, 7, 124);
+}
+.flex-container10{
+    display: flex;
+    /* background-color: rgb(190, 190, 190); */
+    flex-wrap: wrap;
+    width:420px;
+}
+.flex-container10>div{
+    background-color: rgb(100, 100, 100);
+    text-align: center;
+    width: 80px;
+    line-height: 70px;
+    margin: 1px;
+    color: #fff;
+}
+.flex-container10>div:hover{
+    background-color: rgb(67, 7, 124);
+}
+.flex-container11{
+    display: flex;
+    /* background-color: rgb(190, 190, 190); */
+    flex-wrap: wrap;
+    width:420px;
+}
+.flex-container11>div{
+    background-color: rgb(100, 100, 100);
+    text-align: center;
+    width: 80px;
+    line-height: 70px;
+    margin: 1px;
+    color: #fff;
+}
+.flex-container11>div:hover{
+    background-color: rgb(67, 7, 124);
+}
+.flex-container12{
+    display: flex;
+    /* background-color: rgb(190, 190, 190); */
+    flex-wrap: wrap;
+    width:420px;
+}
+.flex-container12>div{
+    background-color: rgb(100, 100, 100);
+    text-align: center;
+    width: 80px;
+    line-height: 70px;
+    margin: 1px;
+    color: #fff;
+}
+.flex-container12>div:hover{
+    background-color: rgb(67, 7, 124);
+}
+.flex-container13{
+    display: flex;
+    /* background-color: rgb(190, 190, 190); */
+    flex-wrap: wrap;
+    width:420px;
+}
+.flex-container13>div{
+    background-color: rgb(100, 100, 100);
+    text-align: center;
+    width: 80px;
+    line-height: 70px;
+    margin: 1px;
+    color: #fff;
+}
+.flex-container13>div:hover{
+    background-color: rgb(67, 7, 124);
+}
+.flex-container14{
+    display: flex;
+    /* background-color: rgb(190, 190, 190); */
+    flex-wrap: wrap;
+    width:420px;
+}
+.flex-container14>div{
+    background-color: rgb(100, 100, 100);
+    text-align: center;
+    width: 80px;
+    line-height: 70px;
+    margin: 1px;
+    color: #fff;
+}
+.flex-container14>div:hover{
+    background-color: rgb(67, 7, 124);
+}
+h1{
+    text-transform: uppercase;
+    font-size: 23px;
+    color: #010101;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.foots{
+    display: flex;
+    width: 410px;
+    background-color: rgb(250, 250, 250);
+}
+footer{
+    display: flex;
+    background-color: rgb(250, 250, 250);
+    /* background-color: gray; */
+    width: 402px;
+    position: relative;
+    top: 30px;
+    bottom: px;
+    border: 3px solid rgb(250, 250, 250);
+
+}
+.home{
+    width:25px;
+    height:25px;
+    position: relative;
+}
+.bibles{
+    width:25px;
+    height:25px;
+    position: relative;
+    left: 50px;
+}
+.libraries{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: 90px;
+}
+.about{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: 120px;
+}
+.p-study{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: 140px;
+}
+.paraimg1{
+    display: inline-block;
+    position: relative;
+    font-size: 12px;
+    top: 15px;
+    right: 30px;
+}
+.paraimg2{
+    display: inline-block;
+    position: relative;
+    font-size: 12px;
+    top: 15px;
+    right: 25px;
+    left: 20px;
+}
+.paraimg3{
+    display: inline-block;
+    position: relative;
+    font-size: 12px;
+    top: 15px;
+    right: 25px;
+    left: 60px ;
+}
+.paraimg4{
+    display: inline-block;
+    position: relative;
+    font-size: 12px;
+    top: 15px;
+    right: 20px;
+    left: 80px;
+}
+.paraimg5{
+    display: inline-block;
+    position: relative;
+    font-size: 12px;
+    top: 15px;
+    right: 25px;
+    left: 100px;
+}
+.paraimg1:hover{
+    color: rgb(67, 7, 124); 
+    font-weight: bolder;
+    cursor: pointer;
+}
+.paraimg2:hover{
+    color: rgb(67, 7, 124); 
+    font-weight: bolder;
+    cursor: pointer;
+}
+.paraimg3:hover{
+    color: rgb(67, 7, 124); 
+    font-weight: bolder;
+    cursor: pointer;
+}
+.paraimg4:hover{
+    color: rgb(67, 7, 124); 
+    font-weight: bolder;
+    cursor: pointer;
+}
+.paraimg5:hover{
+    color: rgb(67, 7, 124); 
+    font-weight: bolder;
+    cursor: pointer;
+}
+.biblebook{
+    color: black;
+}
+.biblebook:hover{
+    color: rgb(67, 7, 124); 
+    font-weight: bolder;
+    cursor: pointer;
+}
+.real-home, .real-libraries, .real-bible, .real-about, .real-study{
+    position: relative;
+    bottom: 5px;
+}
+
+
+
+
+
